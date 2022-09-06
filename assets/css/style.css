@@ -55,8 +55,18 @@ body{
 
 .button p{
   text-align: center;
-  vertical-align: middle;
-  display: inline-block;
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.button.disabled{
+  background-color: white;
+  border: 2px solid #c5cbd0;
+}
+.button.disabled p{
+  color: #c5cbd0;
 }
 
 /* sezione principale, corpo */
@@ -65,4 +75,22 @@ body{
 .round-check,
 .category{
   display: inline-block;
+}
+
+.task, .menu{
+  margin: 10px 40px;
+}
+
+/* regole per selettore a tendina */
+
+.menu span{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.category{
+  display: inline-block;
+  background-color: red;
+  padding: 5px;
+  border-radius: 12px;
 }
