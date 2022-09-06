@@ -104,7 +104,8 @@ section{
 /* check e ballot rule */
 .round-check{
   display: inline-block;
-  padding: 3px;
+  width: 15px;
+  height: 15px;
   color: #83cfbf;
   border: 1px solid #83cfbf;
   border-radius: 50%;
