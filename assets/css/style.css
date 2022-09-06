@@ -93,4 +93,45 @@ body{
   background-color: red;
   padding: 5px;
   border-radius: 12px;
+  color: white;
+  font-size: 10px;
+}
+
+.round-check{
+  display: inline-block;
+  padding: 3px;
+  color: #83cfbf;
+  border: 1px solid #83cfbf;
+  border-radius: 50%;
+  font-size: 10px;
+  text-align: center;
+}
+
+.round-check.ballot{
+  color: #ea4237;
+  border: 1px solid #ea4237;
+}
+
+.category.editorial{
+  background-color: #45abea;
+}
+
+.category.q1-goals{
+  background-color: #9c72e4;
+}
+
+.category.recruiting{
+  background-color: #64c0a9;
+}
+
+.category.mobile{
+  background-color: #f29e33;
+}
+
+.category.website{
+  background-color: #d863a1;
+}
+
+.category.sales{
+  background-color: #b0c926;
 }
