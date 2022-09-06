@@ -12,10 +12,14 @@ body{
 }
 
 .container{
-  width: 80%;
+  width: 50%;
   margin: 0 auto;
   background-color: white;
   border-radius: 5px;
+}
+
+section{
+  padding: 20px 0 20px 0;
 }
 
 /* header rule */
@@ -97,6 +101,7 @@ body{
   font-size: 10px;
 }
 
+/* check e ballot rule */
 .round-check{
   display: inline-block;
   padding: 3px;
@@ -112,6 +117,12 @@ body{
   border: 1px solid #ea4237;
 }
 
+/* regola generale per tasks */
+span .task{
+  font-size: 14px;
+}
+
+/* regole per tutti i vari tasks */
 .category.editorial{
   background-color: #45abea;
 }
