@@ -16,6 +16,7 @@ body{
   margin: 0 auto;
   background-color: white;
   border-radius: 5px;
+  padding: 0 0 30px 0px;
 }
 
 section{
@@ -24,14 +25,14 @@ section{
 
 li{
   list-style: none;
+  margin-bottom: 10px;
+  font-size: 14px;
 }
 
-li{
-  margin-bottom: 10px;
-}
+
 
 li h3{
-  margin-bottom: 5;
+  margin-bottom: 10px;
 }
 
 /* header rule */
